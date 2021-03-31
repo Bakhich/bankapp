@@ -8,18 +8,10 @@ import (
 func ExampleTotal() {
   cards := []types.Card{
     {
-      Balance: 10_000_00,
-      Active:  true,
-    },
-    {
-      Balance: 20_000_00,
-      Active:  true,
-    },
-    {
-      Balance: 30_000_00,
+      Balance: 1_000_00,
       Active:  true,
     },
   }
   fmt.Println(Total(cards))
-  // Output: 6000000
+  // Output: 100000
 }
